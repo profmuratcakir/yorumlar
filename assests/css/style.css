@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: Open Sans;
 }
+
+/* Mustafa Ekledi. */
+
 main {
   display: grid;
   place-items: center;

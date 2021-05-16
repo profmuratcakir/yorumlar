@@ -30,7 +30,6 @@ main {
 }
 .yorum {
   align-items: center;
-  height: 40vh;
   text-align: center;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 }

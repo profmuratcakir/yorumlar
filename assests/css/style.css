@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Open Sans;
+}
+main {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+.başlık {
+  text-align: center;
+}
+#açıklama {
+  text-align: center;
+}
+#yazar {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 500;
+}
+#meslek {
+  text-align: center;
+  color: cornflowerblue;
+  font-weight: 700;
+  height: 5px;
+}
+.yorum {
+  align-items: center;
+  height: 40vh;
+  text-align: center;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.btn-container {
+  letter-spacing: 5px;
+}
+.container {
+  background-color: transparent;
+  width: 80vw;
+  max-width: 500px;
+}
+.btn-outline-info:hover {
+  transition: 0.4s ease;
+  color: white;
+}
+.alt-çizgi {
+  background-color: cornflowerblue;
+  width: 65px;
+  height: 9px;
+  border-radius: 3px;
+}
+.img-container::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -3px;
+  right: -8px;
+  background-color: cornflowerblue;
+  border-radius: 50%;
+}
+.img-container {
+  position: relative;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.resim {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+}
+.başlık h2 {
+  margin-bottom: 30px;
+  font-weight: 1000;
+}
+.başlık .alt-çizgi {
+  margin-bottom: 40px;
+}
+.btn {
+  margin-bottom: 10px;
+}
